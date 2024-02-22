@@ -2,18 +2,36 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<title>B-allsec</title>
-		<link rel='stylesheet' type='text/css' href='/spe.css'>
-		<link rel='icon' type='image/png' href='/pics/favicon_16x16.png' sizes="16x16">
-		<link rel='icon' type='image/png' href='/pics/favicon_32x32.png' sizes="32x32">
-		<link rel='icon' type='image/png' href='/pics/favicon_48x48.png' sizes="48x48">
-		<link rel='icon' type='image/png' href='/pics/favicon_64x64.png' sizes="64x64">
-		<link rel='icon' type='image/png' href='/pics/favicon_144x144.png' sizes="144x144">
+		<link rel='stylesheet' href='spe.css'>
+		<link rel='icon' href='pics/favicon_16x16.png' sizes="16x16">
+		<link rel='icon' href='pics/favicon_32x32.png' sizes="32x32">
+		<link rel='icon' href='pics/favicon_48x48.png' sizes="48x48">
+		<link rel='icon' href='pics/favicon_64x64.png' sizes="64x64">
+		<link rel='icon' href='pics/favicon_144x144.png' sizes="144x144">
 	</head>
 	<body>
-		<div id="layers" class="layers">
-			<div id="foreground" class="foreground"></div>
-			<div id="background" class="background"></div>
+		<div id="sitewrapper" class="sitewrapper">
+			<div id="navbar" class="navbar">
+				<a href="https://d-plash.github.io">
+					<img class="navbarlogo" src="pics/favicon_original_40x40.png" alt="company logo">
+				</a>
+				<a class="navbaritem" value="About us" href="#About_us">
+					<p>About us</p>
+				</a>
+			</div>
+			<div id="layers" class="layers">
+				<div id="foreground">
+					<img src="pics/foreground.png" class="foreground" alt="foreground image">
+				</div>
+				<div id="background">
+					<img src="pics/background.png" class="background" alt="background image">
+				</div>
+			</div>
+			<footer id="footer" class="footer">
+				<p>© 2024 BallSec. All rights reserved.</p>
+			</footer>
 		</div>
 	</body>
 </html>
