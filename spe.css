@@ -4,25 +4,25 @@
 	hight: 100%;
 }
 
-.top_back {
+.foreground {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	hight: 100%;
 	background-size: cover;
-	background-image: url('/pics/top_back.png');
+	background-image: url('/pics/foreground.png');
 	z-index: 2;
 }
 
-.bot_back {
+.background {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	hight: 100%;
 	background-size: cover;
-	background-image: url('/pics/bot_back.png');
+	background-image: url('/pics/background.png');
 	z-index: 1;
 
 }
