@@ -1,0 +1,28 @@
+.layers {
+	position: relative;
+	width: 100%;
+	hight: 100%;
+}
+
+.top_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	hight: 100%;
+	background-size: cover;
+	background-image: url('/pics/top_back.png');
+	z-index: 2;
+}
+
+.bot_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	hight: 100%;
+	background-size: cover;
+	background-image: url('/pics/bot_back.png');
+	z-index: 1;
+
+}
