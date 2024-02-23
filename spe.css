@@ -1,39 +1,61 @@
-body, html {
+html {
+	background-color: #000000;
+	margin: 0;
+}
+
+body {
 	margin: 0;
 	padding: 0;
 }
 
 .navbar {
 	position: relative;
+	align-items: center; 
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 5vh;
 	display: flex;
 	flex-direction: row;
-	background-color: red;
-	color: black;
+	justify-content: space-between;
+	background-color: #000000;
+	color: red;
+	border-bottom: solid 2px #FF0000;
 	z-index: 3;
 
 }
 
 .navbarlogo {
-	padding: 5px;
+	padding-top: 3px;
 }
 
 .navbaritem {
+	display: inline-block;
+	text-align: center;
 	font-family: monospace;
-	color: black;
+	color: #FF0000;
 	font-size: 20px;
-	padding: 15px;
-	margin: 10px;
-	border: solid 2px;
-	border-color: black;
+	text-decoration: none;
 	
 }
 
+.navbarbutton {
+	display: inline-block;
+	padding-right: 5px;
+	text-align: center;
+	font-family: monospace;
+	color: #FF0000;
+	font-size: 20px;
+	text-decoration: none;
+	border: solid 2px #FF0000;	
+	border-radius: 5px;
+	padding: 5px;
+	margin-right: 5px;
+
+}
+
 .sitewrapper {
-	position: ralative;
+	position: static;
 }
 
 .foreground {
@@ -41,38 +63,257 @@ body, html {
 	top: 0;
 	left: 0;
 	width: 100%;
-	/*height: 100%;*/
-	background-size: contain:
-    	background-repeat: no-repeat;
-	background-position: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	z-index: 2;
 }
 
-.background {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 3000px;
-	background-size: contain:
-    	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 1;
+.blackforegroundleft {
+	display: inline-block;
+	background-color: #000000;
+	height: 100vh;
+	width: Opx;
+	z-index: 2left;
 }
 
-.footer {
-	position: relative; 
-	margin-top: 3000px;
-	bottom: 0;
+.transforeground {
+	display: inline-block;
+	height: 80vh;
+	background-color: transparent;
+	width: 1px;
+	z-index: 2;
+}
+
+.blackforegroundright {
+	display: inline-block;
+	background-color: #000000;
+	height: 100vh;
+	width: 100vw;
+	z-index: 2;
+}
+
+.solid-red {
+	width: 100%;
+	height: 100vh;
+	background-color: #FF0000;
+}
+
+.red-to-yellow {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #FF0000, yellow);
+}
+
+.solid-yellow {
+	width: 100%;
+	height: 100vh;
+	background-color: yellow;
+}
+
+.yellow-to-blue {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, yellow, #00AEEF);
+}
+
+.solid-blue {
+	width: 100%;
+	height: 100vh;
+	background-color: #00AEEF;
+}
+
+.blue-to-green {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #00AEEF, #00FF00);
+}
+
+.solid-green {
+	width: 100%;
+	height: 100vh;
+	background-color: #00FF00;
+}
+
+.firstflex {
+	position: absolute; 
+	top: 50%;
 	left: 0;
 	width: 100%;
+	height: 0,5vh;
 	display: flex;
 	font-family: monospace;
 	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-size: contain:
+    	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 4;
+}
+
+.firstflextext {
+	border: 2px dashed #FF0000;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	z-index: 4px;	
+}
+
+.firstflextextp {
+	color: #FF0000;
+	font-size: 20px;
+	font-family: monospace;
+	z-index: 4;	
+}
+
+.secondflex {
+	position: absolute; 
+	top: 250%;
+	left: 0;
+	width: 100%;
+	height: 0,5vh;
+	display: flex;
+	font-family: monospace;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-size: contain:
+    	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 4;
+}
+
+.secondflextext {
+	border: 2px dashed yellow;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	z-index: 4px;	
+}
+
+.secondflextextp {
+	color: yellow;
+	font-size: 20px;
+	font-family: monospace;
+	z-index: 4;	
+}
+
+
+.thirdflex {
+	position: absolute; 
+	top: 450%;
+	left: 0;
+	width: 100%;
+	height: 0,5vh;
+	display: flex;
+	font-family: monospace;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-size: contain:
+    	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 4;
+}
+
+.thirdflextext {
+	border: 2px dashed #00AEEF;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	z-index: 4px;	
+}
+
+.thirdflextextp {
+	color: #00AEEF;
+	font-size: 20px;
+	font-family: monospace;
+	z-index: 4;	
+}
+
+.fourthflex {
+	position: absolute; 
+	top: 650%;
+	left: 0;
+	width: 100%;
+	height: 0,5vh;
+	display: flex;
+	font-family: monospace;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-size: contain:
+    	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 4;
+}
+
+.fourthflextext {
+	border: 2px dashed #00FF00;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	z-index: 4px;	
+}
+
+.fourthflextextp {
+	color: #00FF00;
+	font-size: 20px;
+	font-family: monospace;
+	z-index: 4;	
+}
+
+.fleximgflex {
+	display: flex;
+	align-items: center;
+	z-index: 4;	
+}
+
+.fleximg {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
+
+
+.toplayer {
+	z-index: 5;
+}
+
+
+.footer {
+	position: relative; 
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2vh;
+	display: flex;
+	font-family: monospace;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	background-color: black;
-	color: red;
+	color: #00FF00;
+	border-top: 1px solid #00FF00;
 	background-size: contain:
     	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 3;
+}
+
+.footerp {
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: default;
+}
+
+abbr {
+	text-decoration: none;
 }
