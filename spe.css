@@ -2,15 +2,17 @@ html {
 	background-color: #000000;
 	margin: 0;
 	scroll-snap-type: y mandatory;
+	height: 100%;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 .navbar {
-	position: relative;
+	position: fixed;
 	scroll-behavior: smooth;
 	scroll-snap-align: start;
 	align-items: center; 
@@ -323,4 +325,14 @@ body {
 
 abbr {
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar {
+		flex-derection: column;
+		height: auto;
+	}
+	.navbaritem, .navbarbutton {
+		margin: 5px 0;
+	}
 }
