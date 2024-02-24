@@ -297,19 +297,42 @@ body {
 }
 
 .fifthflextext {
+	position: relative;
+	display: flex;
+	margin-top: 10px;
 	border: 2px dashed #FF0000;
 	border-radius: 5px;
 	margin-left: 50px;
 	margin-right: 50px;
-	padding: 10px;
+	background: transparent;
 	z-index: 4px;	
 }
 
 .fifthflextextp {
 	color: #FF0000;
 	font-size: 20px;
+	margin-left: 5vw;
 	font-family: monospace;
 	z-index: 4;	
+}
+
+.fifthflextexttitlep {
+	color: #FF0000;
+	font-size: 20px;
+	font-family: monospace;
+	z-index: 4;	
+}
+
+.fifthflexformsendbutton {
+	margin-top: 10px;
+	margin-left: 170px;
+	background: transparent;
+	border: solid 2px #FF0000;
+	border-radius: 5px;
+	cursor: default;
+	color: #FF0000;
+	font-size: 20px;
+	font-family: monospace;
 }
 
 .fleximgflex {
@@ -320,7 +343,7 @@ body {
 
 .fleximg {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 50vh;
 	height: auto;
 	width: auto;
 }

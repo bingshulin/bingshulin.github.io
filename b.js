@@ -7,8 +7,7 @@ function updateContent(language) {
 		document.getElementById("navbarlink1text").textContent = "About us";
 		document.getElementById("navbarlink2text").textContent = "Services";
 		document.getElementById("navbarlink3text").textContent = "Pricing";
-		document.getElementById("navbarlink4text").textContent = "Gei sex gallery";
-		document.getElementById("navbarlink5text").textContent = "Free V-Bucks";
+		document.getElementById("navbarlink4text").textContent = "idk bro";
 
 		document.getElementById("navbarbuttontext").textContent = "Contact Us";
 
@@ -20,8 +19,7 @@ function updateContent(language) {
 		document.getElementById("navbarlink1text").textContent = "O nás";
 		document.getElementById("navbarlink2text").textContent = "Služby";
 		document.getElementById("navbarlink3text").textContent = "Ceník";
-		document.getElementById("navbarlink4text").textContent = "Gei sex galerie";
-		document.getElementById("navbarlink5text").textContent = "V-Bucks zadarmo";
+		document.getElementById("navbarlink4text").textContent = "nevim už";
 
 		document.getElementById("navbarbuttontext").textContent = "Kontaktujte nás";
 
