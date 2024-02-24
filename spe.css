@@ -26,7 +26,7 @@ body {
 	background-color: #000000;
 	color: red;
 	border-bottom: solid 2px #FF0000;
-	z-index: 3;
+	z-index: 4;
 
 }
 
@@ -80,8 +80,8 @@ body {
 	display: inline-block;
 	background-color: #000000;
 	height: 100vh;
-	width: Opx;
-	z-index: 2left;
+	width: 1px;
+	z-index: 2;
 }
 
 .transforeground {
@@ -314,7 +314,7 @@ body {
 	background-size: contain:
     	background-repeat: no-repeat;
 	background-position: center;
-	z-index: 3;
+	z-index: 4;
 }
 
 .footerp {
