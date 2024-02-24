@@ -11,6 +11,7 @@ body {
 
 .navbar {
 	position: relative;
+	scroll-behavior: smooth;
 	scroll-snap-align: start;
 	align-items: center; 
 	top: 0;
@@ -142,6 +143,7 @@ body {
 .firstflex {
 	position: absolute; 
 	scroll-snap-align: center;
+	scroll-behavior: smooth;
 	top: 50%;
 	left: 0;
 	width: 100%;
@@ -175,6 +177,7 @@ body {
 .secondflex {
 	position: absolute; 
 	scroll-snap-align: center;
+	scroll-behavior: smooth;
 	top: 250%;
 	left: 0;
 	width: 100%;
@@ -209,6 +212,7 @@ body {
 .thirdflex {
 	position: absolute; 
 	scroll-snap-align: center;
+	scroll-behavior: smooth;
 	top: 450%;
 	left: 0;
 	width: 100%;
@@ -242,6 +246,7 @@ body {
 .fourthflex {
 	position: absolute; 
 	scroll-snap-align: center;
+	scroll-behavior: smooth;
 	top: 650%;
 	left: 0;
 	width: 100%;
