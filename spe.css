@@ -261,3 +261,25 @@ abbr {
 		margin-top: 15px;
 	}
  }
+
+@media only screen and (max-width: 400px) {
+	.navbar {
+		position: relative;
+		flex-direction:column;
+	}
+	.navbarlinksflex {
+		display: contents;
+	}
+	.navbaritemseparator {
+		display: none;
+	}
+	.navbarbutton {
+		margin-bottom: 30px;
+		margin-top: 15px;
+	}
+	.navbarlogo {
+		padding: 0px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+ }
