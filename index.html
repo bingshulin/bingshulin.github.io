@@ -16,85 +16,92 @@
 	</head>
 
 	<body>
-		<div id="siteleadplaceholder" class="siteloadplaceholder"></div>
 	<script>
 		window.onload = function() {
 			document.body.style.display = "block";
 				}
 	</script>
 		<div id="navbar" class="navbar">
-			<a href="https://infiltration.quest">
-				<img class="navbarlogo" src="pics/logothin_40x34.png" alt="company logo">
+			<a id="navbarlogocontainer" href="https://infiltration.quest">
+				<img id="navbarlogo" class="navbarlogo" src="pics/logothin_40x34.png" alt="company logo">
 			</a>
-			<span>
+			<span class="navbarlinksflex">
 				<a id="navbarlink1" class="navbaritem" href="#firstflex">
 					<p id="navbarlink1text">About us</p>
 				</a>
-				<span class="navbaritem"> | </span>
+				<span class="navbaritemseparator"> | </span>
 				<a id="navbarlink2" class="navbaritem" href="#secondflex">
 					<p id="navbarlink2text">Services</p>
 				</a>
-				<span class="navbaritem"> | </span>
+				<span class="navbaritemseparator"> | </span>
 				<a id="navbarlink3" class="navbaritem" href="#thirdflex">
 					<p id="navbarlink3text">Pricing</p>
 				</a>
-				<span class="navbaritem"> | </span>
+				<span class="navbaritemseparator"> | </span>
 				<a id="navbarlink4" class="navbaritem" href="#fourthflex">
 					<p id="navbarlink4text">Idkbro</p>
 				</a>
 			</span>
-			<a class="navbaritem" href="#fifthflex">
+			<a id="navbarbutton" class="navbaritem" href="#fifthflex">
 				<span id="navbarbuttontext" class="navbarbutton">Contact Us</span>
 			</a>
 		</div>
-		<div id="layers" class="layers">
-			<div id="solid-red" class="solid-red"></div>
-			<div id="firstflex" class="firstflex">
-				<div id="firstflextext" class="firstflextext">
-					<p id="firstflextextp" class="firstflextextp">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
-				</div>
-				<div id="fleximgflex" class="fleximgflex">
-					<img class="fleximg" src="pics/firstflex.png" alt="promo image">
-				</div>
-			</div>
-			<div id="red-to-yellow" class="red-to-yellow"></div> 
-			<div id="solid-yellow" class="solid-yellow"></div>
-			<div id="secondflex" class="secondflex">
-				<div id="secondflextext" class="secondflextext">
-					<p id="secondflextextp" class="secondflextextp">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
-				</div>
-				<div id="fleximgflex" class="fleximgflex">
-					<img class="fleximg" src="pics/secondflex.png" alt="promo image">
+		<div id="flexsections" class="">
+			<div id="solid-red" style="background-color: #FF0000;" class="backgroundgradient">				<div id="firstflex" class="flexcontainer">
+					<div id="firstflextext" style="border-color: #FF0000;" class="flextextcontainer1">
+						<p id="firstflextextp" style="color: #FF0000;" class="flextext1">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+					</div>
+					<div id="fleximgflex" class="fleximgcontainer">
+						<img class="fleximg" src="pics/firstflex.png" alt="promo image">
+					</div>
 				</div>
 			</div>
-			<div id="yellow-to-blue" class="yellow-to-blue"></div> 
-			<div id="solid-blue" class="solid-blue"></div>
-			<div id="thirdflex" class="thirdflex">
-				<div id="thirdflextext" class="thirdflextext">
-					<p id="thirdflextextp" class="thirdflextextp">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
-				</div>
-				<div id="fleximgflex" class="fleximgflex">
-					<img class="fleximg" src="pics/thirdflex.png" alt="promo image">
-				</div>
-			</div>
-			<div id="blue-to-green" class="blue-to-green"></div> 
-			<div id="solid-green" class="solid-green"></div>
-			<div id="fourthflex" class="fourthflex">
-				<div id="fourthflextext" class="fourthflextext">
-					<p id="fourthflextextp" class="fourthflextextp">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
-				</div>
-				<div id="fleximgflex" class="fleximgflex">
-					<img class="fleximg" src="pics/fourthflex.png" alt="promo image">
+			<div id="red-to-yellow" style="background: linear-gradient(to bottom, #FF0000, yellow)" class="backgroundgradient"></div> 
+			<div id="solid-yellow" style="background-color: yellow;" class="backgroundgradient">
+				<div id="secondflex" style:"top: 220%;" class="flexcontainer">
+					<div id="secondflextext" style="border-color: yellow;" class="flextextcontainer1">
+						<p id="secondflextextp" style="color: yellow;" class="flextext1">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+					</div>
+					<div id="fleximgflex" class="fleximgcontainer">
+						<img class="fleximg" src="pics/secondflex.png" alt="promo image">
+					</div>
 				</div>
 			</div>
-			<div id="green-to-red" class="green-to-red"></div> 
-			<div id="solid-red2" class="solid-red"></div>
-			<div id="fifthflex" class="fifthflex">
-				<div id="fifthflextext" class="fifthflextext">
-					<p id="fifthflextextp" class="fifthflextextp">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+			<div id="yellow-to-blue" style="background: linear-gradient(to bottom, yellow, #00AEEF);" class="backgroundgradient"></div> 
+			<div id="solid-blue" style="background-color: #00AEEF" class="backgroundgradient">
+				<div id="thirdflex" style:"top: 400%;" class="flexcontainer">
+					<div id="thirdflextext" style="border-color: #00AEEF;" class="flextextcontainer1">
+						<p id="thirdflextextp" style="color: #00AEEF;" class="flextext1">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+					</div>
+					<div id="fleximgflex" class="fleximgcontainer">
+						<img class="fleximg" src="pics/thirdflex.png" alt="promo image">
+					</div>
 				</div>
-				<div id="fleximgflex" class="fleximgflex">
-					<img class="fleximg" src="pics/fifthflex.png" alt="promo image">
+			</div>
+
+			<div id="blue-to-green" style="background: linear-gradient(to bottom, #00AEEF, #00FF00);" class="backgroundgradient"></div> 
+
+			<div id="solid-green" style="background-color: #00FF00;" class="backgroundgradient">
+				<div id="fourthflex" style:"top: 600%;" class="flexcontainer">
+					<div id="fourthflextext" style="border-color: #00FF00;" class="flextextcontainer1">
+						<p id="fourthflextextp" style="color: #00FF00;" class="flextext1">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+					</div>
+					<div id="fleximgflex" class="fleximgcontainer">
+						<img class="fleximg" src="pics/fourthflex.png" alt="promo image">
+					</div>
+				</div>
+			</div>
+
+			<div id="green-to-red" style="background: linear-gradient(to bottom, #00FF00, #FF0000);" class="backgroundgradient"></div> 
+
+			<div id="solid-red2" style="background-color: #FF0000;" class="backgroundgradient">
+				<div id="fifthflex" style:"top: 840%;" class="flexcontainer">
+					<div id="fifthflextext" style="border-color: #FF0000;" class="flextextcontainer2">
+						<p id="fifthflextextp" style="color: #FF0000;" class="flextext2">At Ballsec we take security seriously loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sunloren sun loren sun loren sun loren sun loren sun loren sun loren sun loren sun  n loren un loren sun</p>
+					</div>
+					<div id="fleximgflex" class="fleximgcontainer">
+						<img class="fleximg" src="pics/fifthflex.png" alt="promo image">
+					</div>
 				</div>
 			</div>
 			<div id="foreground">
