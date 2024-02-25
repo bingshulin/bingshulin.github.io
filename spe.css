@@ -146,6 +146,8 @@ body {
 	margin-right: 50px;
 	padding: 10px;
 	z-index: 4px;	
+	justify-content: center;
+	align-items: center;
 }
 
 .flextext1 {
@@ -168,9 +170,10 @@ body {
 
 .flextext2 {
 	font-size: 20px;
-	margin-left: 5vw;
+	margin: 20px;
 	font-family: monospace;
 	z-index: 4;	
+	color: #FF0000;
 }
 
 .fifthflextexttitlep {
@@ -180,17 +183,6 @@ body {
 	z-index: 4;	
 }
 
-.fifthflexformsendbutton {
-	margin-top: 10px;
-	margin-left: 170px;
-	background: transparent;
-	border: solid 2px #FF0000;
-	border-radius: 5px;
-	cursor: default;
-	color: #FF0000;
-	font-size: 20px;
-	font-family: monospace;
-}
 
 .fleximgcontainer {
 	display: flex;
@@ -241,8 +233,37 @@ body {
 	cursor: default;
 }
 
+.formbutton {
+	color: #FF0000;
+	font-size: 15px;
+}
+
 abbr {
 	text-decoration: none;
+}
+
+form {
+	margin: 10vw 22vw 10vw 22vw;
+	font-family: monospace;
+	font-size: 20px;	
+}
+
+label {
+	color: #FF0000;
+}
+		
+input {
+	background: transparent;	
+	border: solid 2px #FF0000;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.desktop {
+}
+
+.mobile {
+	display: none;
 }
 
 @media only screen and (max-width: 605px) {
@@ -250,7 +271,7 @@ abbr {
 		flex-direction: column;
 	}
 	.navbar {
-		position: absolute;
+		position: relative;
 		flex-direction:column;
 	}
 	.navbarbutton {
@@ -259,6 +280,16 @@ abbr {
 	.navbarlogo {
 		padding: 0px;
 		margin-top: 15px;
+	}
+	.flexcontainer {
+		flex-direction: column;
+	}
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: inline;
 	}
  }
 
