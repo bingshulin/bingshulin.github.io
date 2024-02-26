@@ -121,6 +121,15 @@ body {
 	height: 100vh;
 }
 
+.heading {
+	color: #FF0000;
+	z-index: 4;
+	position: absolute;
+	top: 10%;
+	font-family: monospace;
+	font-size: 30px;
+}
+
 .flexcontainer {
 	position: absolute; 
 	scroll-snap-align: center;
@@ -140,11 +149,10 @@ body {
 
 .flextextcontainer1 {
 	display: inline-block;
-	border: 2px dashed;
+	width: 70%;
+	border: 2px solid;
 	border-radius: 5px;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 10px;
+	margin-left: 6vw;
 	z-index: 4px;	
 	justify-content: center;
 	align-items: center;
@@ -152,6 +160,8 @@ body {
 
 .flextext1 {
 	font-size: 20px;
+	padding: 2vw;
+	margin: 0px;
 	font-family: monospace;
 	z-index: 4;	
 }
@@ -159,18 +169,17 @@ body {
 .flextextcontainer2 {
 	position: relative;
 	display: flex;
-	margin-top: 10px;
-	border: 2px dashed;
+	border: 2px solid;
 	border-radius: 5px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 6vw;
+	margin-right: 6vw;
 	background: transparent;
 	z-index: 4px;	
 }
 
 .flextext2 {
 	font-size: 20px;
-	margin: 20px;
+	margin: 5vw;
 	font-family: monospace;
 	z-index: 4;	
 	color: #FF0000;
@@ -193,13 +202,25 @@ body {
 
 .fleximg {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 80vh;
 	align-items: center;
 	justify-content: center;
 	height: auto;
 	width: auto;
 }
 
+
+.productgrid {
+	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-right: 5vw;
+}
+
+.griditem {
+	max-height: 5vw;
+	padding: 2vw;
+}
 
 .toplayer {
 	z-index: 5;
@@ -232,6 +253,7 @@ body {
 	padding-right: 10px;
 	cursor: default;
 }
+
 
 .formbutton {
 	color: #FF0000;
@@ -291,9 +313,29 @@ input {
 	.mobile {
 		display: inline;
 	}
+	.flextextcontainer1 {
+		display: inline-block;
+		border: 2px dashed;
+		border-radius: 5px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 10px;
+		z-index: 4px;	
+		justify-content: center;
+		align-items: center;
+	}
+	.productgrid {
+		flex: 1;
+		display: grid;
+		margin-top: 10vh;
+		margin-right: 0px;
+	}
+	.griditem {
+		max-height: 15vw;
+	}
  }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 	.navbar {
 		position: relative;
 		flex-direction:column;

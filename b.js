@@ -7,7 +7,7 @@ function updateContent(language) {
 		document.getElementById("navbarlink1text").textContent = "About us";
 		document.getElementById("navbarlink2text").textContent = "Services";
 		document.getElementById("navbarlink3text").textContent = "Pricing";
-		document.getElementById("navbarlink4text").textContent = "idk bro";
+		document.getElementById("navbarlink4text").textContent = "Testimonials";
 
 		document.getElementById("navbarbuttontext").textContent = "Contact Us";
 
@@ -19,7 +19,7 @@ function updateContent(language) {
 		document.getElementById("navbarlink1text").textContent = "O nás";
 		document.getElementById("navbarlink2text").textContent = "Služby";
 		document.getElementById("navbarlink3text").textContent = "Ceník";
-		document.getElementById("navbarlink4text").textContent = "nevim už";
+		document.getElementById("navbarlink4text").textContent = "Reference";
 
 		document.getElementById("navbarbuttontext").textContent = "Kontaktujte nás";
 
